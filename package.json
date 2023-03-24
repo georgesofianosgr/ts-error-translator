@@ -14,7 +14,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
     "release": "turbo run publish:vsce publish:ovsx && node ./scripts/tag-extension.js",
-    "parser:dev": "turbo run dev --filter *parser"
+    "parser:dev": "turbo run dev --filter *parser",
+    "cli": "turbo run cli"
   },
   "devDependencies": {
     "husky": ">=6",

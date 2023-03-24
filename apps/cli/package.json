@@ -1,0 +1,16 @@
+{
+  "name": "@total-typescript/cli",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cli": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "config": "workspace:*",
+    "eslint": "^7.32.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.5.3",
+    "@total-typescript/error-translation-engine": "workspace:*"
+  }
+}

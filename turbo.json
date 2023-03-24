@@ -16,6 +16,9 @@
     "dev": {
       "cache": false
     },
+    "cli": {
+      "cache": false
+    },
     "bundle-errors": {
       "outputs": [],
       "cache": false
